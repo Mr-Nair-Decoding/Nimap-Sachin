@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar {
+  box-shadow: none !important;
+  padding-top: 4rem !important;
+}
+
+.navbar .navbar-toggler {
+  background: rgba(171, 178, 185, 0.9);
+}
+
+.navbar.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://ww…p='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item.active > .nav-link {
+  background-color: transparent !important;
+  border-top: 4px solid #5dade2;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item > .nav-link:hover {
+  border-top: 4px solid #5dade2 !important;
+}
+
+.top-nav-collapse {
+  background: rgba(171, 178, 185, 0.9);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
