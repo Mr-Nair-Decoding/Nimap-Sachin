@@ -20,14 +20,14 @@ export class NavbarComponent implements OnInit {
       }
     });
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navbar").style.background="#c0c0c0";
+    // function scrollFunction() {
+    //   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    //     document.getElementById("navbar").style.background="#c0c0c0";
      
-      } else {
-        document.getElementById("navbar").style.background="";
-      }
-    }
+    //   } else {
+    //     document.getElementById("navbar").style.background="";
+    //   }
+    // }
     
   }
 

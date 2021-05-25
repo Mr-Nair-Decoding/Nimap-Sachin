@@ -162,7 +162,7 @@ export class ProfileComponent implements OnInit {
       var width = img.naturalWidth,
         height = img.naturalHeight;
       window.URL.revokeObjectURL(img.src);
-      if (width > 310 && height > 325) {
+      if (width == 310 && height == 233) {
         me.imageValid = true;
       } else {
         me.imageValid = false;

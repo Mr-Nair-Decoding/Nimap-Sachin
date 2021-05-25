@@ -30,9 +30,12 @@ export class DatahandleService {
   }
 
   updateProfileData(editProfileData): Observable<userData> {
+    const param ={
+      profilePhoto:editProfileData.profilePhoto 
+    }
     return this.http.patch<userData>(
       this.url + "/" + editProfileData.id,
-      editProfileData,
+      param,
       {
         headers: myheader
       }

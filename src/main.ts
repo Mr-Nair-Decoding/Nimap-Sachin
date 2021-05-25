@@ -11,11 +11,4 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
-  function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      document.getElementById("navbar").style.background="grey";
-   
-    } else {
-      document.getElementById("navbar").style.background="";
-    }
-  }
+  
